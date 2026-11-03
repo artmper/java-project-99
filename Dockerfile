@@ -4,6 +4,6 @@ WORKDIR /java-project-99
 
 COPY . .
 
-RUN ./gradlew shadowJar --no-daemon
+RUN ./gradlew bootJar --no-daemon
 
-CMD ["java", "-jar", "build/libs/app-0.0.1-SNAPSHOT-all.jar"]
+CMD ["java", "-jar", "build/libs/app-0.0.1-SNAPSHOT.jar"]
