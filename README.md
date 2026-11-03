@@ -23,7 +23,8 @@ cd java-project-99
 ## Использование
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
+- Демо деплой на Render
+https://java-project-99-v9ph.onrender.com/welcome
 ---
 
 <details>
