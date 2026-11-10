@@ -33,24 +33,20 @@ public class User implements BaseEntity {
     @EqualsAndHashCode.Include
     private Long id;
 
-
-    @NotBlank
-    @Size(min = 2, max = 20)
     @ToString.Include
     private String firstName;
 
-
-    @NotBlank
-    @Size(min = 2, max = 20)
     @ToString.Include
     private String lastName;
 
     @Column(unique = true)
     @Email
+    @NotBlank
     @ToString.Include
     private String email;
 
     @NotBlank
+    @Size(min = 3, max = 255)
     private String password;
 
     @CreatedDate
